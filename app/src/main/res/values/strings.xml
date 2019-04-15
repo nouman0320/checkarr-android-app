@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Checkarr</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password (Must be 6-25)</string>
+    <string name="select_gender">Select gender</string>
+    <string name="forgot_your_login_details">Forgot your login details?</string>
+    <string name="get_help_signing_in">Get help signing in.</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="next">Next</string>
+    <string name="please_enter_a_valid_email">Please enter a valid email.</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="remove_photo">Remove photo</string>
+    <string-array name="genderArray">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="emailArray">
+        <item>usamabin.shahid@yahoo.com</item>
+    </string-array>
+</resources>

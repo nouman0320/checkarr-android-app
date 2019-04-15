@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePictureSelection">
+
+   <!-- <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/noImage"
+        android:layout_width="246dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/no_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <Button
+        android:id="@+id/uploadPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/upload_photo"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noImage" />
+
+    <!--<ImageView
+        android:id="@+id/noImage"
+        android:layout_width="242dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<com.github.abdularis.civ.CircleImageView
+        android:id="@+id/noImage"
+        android:layout_width="226dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/neutral_image"
+        app:highlightEnable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@android:color/white"
+        app:strokeWidth="2dp" />-->
+
+
+    <Button
+        android:id="@+id/removePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/remove_photo"
+        app:layout_constraintStart_toEndOf="@+id/uploadPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/noImage" />
+
+    <ImageView
+        android:id="@+id/noImage"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image"
+        android:cropToPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/neutral_image" />
+
+
+</android.support.constraint.ConstraintLayout>

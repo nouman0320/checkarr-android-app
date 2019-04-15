@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:spinnerItemStyle">@style/TextViewSpinnerItem</item>-->
+        <!--<item name="android:spinnerStyle">@style/TextViewSpinnerDropDownItem</item>-->
+    </style>
+
+    <style name="TextViewSpinnerItem" parent="Widget.AppCompat.Spinner">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextViewSpinnerDropDownItem" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:background">@drawable/rectangle</item>
+    </style>
+
+</resources>
